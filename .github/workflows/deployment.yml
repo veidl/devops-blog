@@ -3,7 +3,7 @@ on:
     branches: [ main ]
 
 jobs:
-  Lint:
+  Deploy:
     name: Docker-push
     runs-on: ubuntu-latest
     steps:
