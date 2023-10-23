@@ -1,11 +1,18 @@
 name: Audit Workflow
 
 on:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - synchronize
+    branches:
+      - main
   workflow_call:
 
 jobs:
-  Lint:
-    name: Lint
+  Audit:
+    name: Audit
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

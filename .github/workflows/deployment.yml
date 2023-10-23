@@ -3,10 +3,7 @@ on:
     branches: [ main ]
 
 jobs:
-  Audit:
-    uses: ./.github/workflows/audit.yml
   Deploy:
-    needs: [ Audit ]
     name: Docker-push
     runs-on: ubuntu-latest
     steps:
