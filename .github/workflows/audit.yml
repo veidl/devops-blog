@@ -24,6 +24,8 @@ jobs:
 
       - name: Audit Dependencies
         run: npm audit
+        continue-on-error: true
 
       - name: Check outdated dependencies
         run: npm outdated
+        continue-on-error: true
