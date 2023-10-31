@@ -41,3 +41,7 @@ When running the busy box - it can be seen that the CPU limit is reached and the
 The following image shows how the autoscaler worked:
 
 ![autoscaler](k8s/autoscaling.png)
+
+# DevOps Course Exercise 3
+
+AWS Deployment: http://polzer-load-balancer-1597741389.us-east-1.elb.amazonaws.com/
